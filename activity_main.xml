@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050b14"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WILD RIFT BOOSTER"
+        android:textColor="#3b82f6"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로컬 VPN DNS(1.1.1.1) &amp; 성능 최적화"
+        android:textColor="#9ca3af"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnBoost"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#2563eb"
+        android:text="🚀 터보 부스트 &amp; DNS 적용"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+</LinearLayout>
